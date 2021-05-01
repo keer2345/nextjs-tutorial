@@ -2,13 +2,10 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Home Page</h1>
       <p>
         Lorem enim excepteur ut tempor in. Aute et duis duis esse occaecat qui
@@ -28,7 +25,6 @@ export default function Home() {
       <Link href="/keer">
         <a>See Keer Listing</a>
       </Link>
-      <Footer />
     </div>
   )
 }
