@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -24,6 +25,9 @@ export default function Home() {
         excepteur duis enim veniam ut adipisicing veniam id sit quis. Nisi
         veniam cupidatat esse voluptate culpa ex et cillum Lorem esse.
       </p>
+      <Link href="/keer">
+        <a>See Keer Listing</a>
+      </Link>
       <Footer />
     </div>
   )
